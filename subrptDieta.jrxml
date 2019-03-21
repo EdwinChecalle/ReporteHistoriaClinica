@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subrptDieta" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="2" bottomMargin="2" uuid="cc4d244e-51e6-4712-aaa9-cce82987d15a">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="n_linea" class="java.lang.Integer"/>
+	<field name="v_tiporeceta" class="java.lang.String"/>
+	<field name="v_dieta" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="40" splitType="Stretch">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="40" uuid="996054d2-9af0-454b-bf2f-a4ff2582e85b"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineColor="#E5BAFF"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+				</box>
+				<frame>
+					<reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="0" width="555" height="15" forecolor="#FFFFFF" backcolor="#EBCCFF" uuid="14392346-ff34-47ba-a182-cb3fd1367684"/>
+					<box>
+						<pen lineColor="#EBCCFF"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+					</box>
+				</frame>
+				<staticText>
+					<reportElement positionType="FixRelativeToBottom" x="11" y="2" width="139" height="13" uuid="73112764-c946-4011-bab3-a15d01d9217c"/>
+					<textElement>
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<text><![CDATA[DIETA]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="4" y="18" width="20" height="20" isPrintWhenDetailOverflows="true" uuid="41a0ebe0-73a8-4370-80dc-4f724abc975f">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9909bca8-25de-452d-9603-6a90be943c65"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[N°]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="55" y="18" width="60" height="20" isPrintWhenDetailOverflows="true" uuid="c59ba5cf-f9c8-41bc-bc23-4cf8232b8a74">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1d8eb777-a58f-41f2-ae37-139a168ca251"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Tipo]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="301" y="18" width="70" height="20" uuid="dd26f427-3cea-4170-a918-fe24c5e468b4">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="aa5bb3dc-a5b8-4749-b570-8660dc9dca0b"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Observación]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="5" width="25" height="20" uuid="4d0e9c7d-98b7-4528-a250-ea177e922fb7">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="15bde9d5-0c0b-4528-a1c9-e014f5cc9407"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{n_linea}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="35" y="5" width="100" height="20" uuid="fe8690bd-6f8b-4203-a74d-bd27d64b5f63">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="575abc6f-027e-4bd7-a0b5-589f2fa74c13"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{v_tiporeceta}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="150" y="2" width="395" height="25" isPrintWhenDetailOverflows="true" uuid="057e7822-35da-48d5-b021-87723b41abbd">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f75c6a71-5b5a-4aaf-96a9-26c481037ee5"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{v_dieta}]]></textFieldExpression>
+			</textField>
+			<frame>
+				<reportElement positionType="Float" x="0" y="0" width="555" height="30" uuid="4684d97f-9e0b-454b-9108-4b8a95c256d7"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineColor="#E5BAFF"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+				</box>
+				<rectangle>
+					<reportElement mode="Transparent" x="24" y="0" width="116" height="30" uuid="fcc6ac51-8065-4e87-8067-39531bfd1aeb"/>
+					<graphicElement>
+						<pen lineColor="#E5BAFF"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement mode="Transparent" x="140" y="0" width="415" height="30" isPrintWhenDetailOverflows="true" uuid="b2ae20a2-d754-4191-94e2-6fb775c18265"/>
+					<graphicElement>
+						<pen lineColor="#E5BAFF"/>
+					</graphicElement>
+				</rectangle>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

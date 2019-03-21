@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subrptExamenFisico" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="2" bottomMargin="2" isFloatColumnFooter="true" uuid="9e7590ff-09fc-406f-b104-43bd90680aff">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="n_linea" class="java.lang.Integer"/>
+	<field name="v_partecuerpo" class="java.lang.String"/>
+	<field name="v_comentario" class="java.lang.String"/>
+	<columnHeader>
+		<band height="40" splitType="Prevent">
+			<frame>
+				<reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="0" width="555" height="15" forecolor="#FFFFFF" backcolor="#EBCCFF" uuid="d9802360-42da-4a9a-9520-89644e9170ff"/>
+				<box>
+					<pen lineColor="#EBCCFF"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+				</box>
+			</frame>
+			<frame>
+				<reportElement x="0" y="0" width="555" height="40" uuid="0c7cc21c-9aa8-4b56-bed9-a476b6d29b97"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineColor="#E5BAFF"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+				</box>
+				<staticText>
+					<reportElement positionType="FixRelativeToBottom" x="11" y="2" width="139" height="13" uuid="847174e1-cb6a-48bb-94be-1382cbec2891"/>
+					<textElement>
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<text><![CDATA[EXAMEN FISICO]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="4" y="18" width="20" height="20" uuid="636eaadc-8530-402f-889a-ac0c09235125">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2c7d59f2-d327-4d72-bd4d-d7dff29b1344"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Nº]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="65" y="18" width="149" height="20" uuid="eba0222b-7893-45a6-81c0-34fde34f518e">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a1c7324e-463c-4881-9797-223b105f3b7e"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Parte del cuerpo humano]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="330" y="18" width="100" height="20" uuid="bf399ea6-9b68-4157-b41a-48867bc43757">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="69e89866-371e-4575-87a6-cfc33b9ce102"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Comentario]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<frame>
+				<reportElement positionType="Float" x="0" y="0" width="555" height="30" uuid="49170cfb-401e-4da5-8fa4-f6a62689ecd6"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineColor="#E5BAFF"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+				</box>
+				<rectangle>
+					<reportElement mode="Transparent" x="24" y="0" width="216" height="30" uuid="04711c2a-337b-4d8f-b51a-409c5acd9563"/>
+					<graphicElement>
+						<pen lineColor="#E5BAFF"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement mode="Transparent" x="240" y="0" width="315" height="30" uuid="7d87df81-5107-4a73-a908-cf493858f0da"/>
+					<graphicElement>
+						<pen lineColor="#E5BAFF"/>
+					</graphicElement>
+				</rectangle>
+				<textField isBlankWhenNull="true">
+					<reportElement x="45" y="2" width="180" height="25" isPrintWhenDetailOverflows="true" uuid="dee721ab-e77c-4d1d-bfe1-56e818fc9497">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a1c7324e-463c-4881-9797-223b105f3b7e"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle"/>
+					<textFieldExpression><![CDATA[$F{v_partecuerpo}]]></textFieldExpression>
+				</textField>
+			</frame>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="5" width="25" height="20" uuid="bc1e40ce-2df1-44ca-ab6a-3d71171028da">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2c7d59f2-d327-4d72-bd4d-d7dff29b1344"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{n_linea}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="245" y="2" width="305" height="25" uuid="d5aab0c4-f28b-4bed-81e6-b33c6bdd780b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="69e89866-371e-4575-87a6-cfc33b9ce102"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{v_comentario}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

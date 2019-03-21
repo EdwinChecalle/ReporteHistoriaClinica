@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subrptDiagnostico" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="2" bottomMargin="2" uuid="596c9305-6e62-4ae0-81fb-7e86f9b78383">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="n_linea" class="java.lang.Integer"/>
+	<field name="v_determ_diagnostica" class="java.lang.String"/>
+	<field name="v_tipodiagnostico" class="java.lang.String"/>
+	<field name="v_gradoafeccion" class="java.lang.String"/>
+	<field name="v_preexistencia" class="java.lang.String"/>
+	<field name="v_detallediagnostico" class="java.lang.String"/>
+	<field name="v_diagnostico_principal" class="java.lang.String"/>
+	<field name="v_diagnostico_adicional" class="java.lang.String"/>
+	<field name="v_compendiocie10" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="45" splitType="Stretch">
+			<frame>
+				<reportElement x="0" y="0" width="555" height="45" uuid="d1d770fd-52bc-4d5d-8afe-0f75c7cea71a"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineColor="#E5BAFF"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+				</box>
+				<frame>
+					<reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="0" width="555" height="15" forecolor="#FFFFFF" backcolor="#EBCCFF" uuid="31751a6c-ce71-4409-92b7-c53408c6c92b"/>
+					<box>
+						<pen lineColor="#EBCCFF"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+					</box>
+				</frame>
+				<staticText>
+					<reportElement positionType="FixRelativeToBottom" x="11" y="2" width="139" height="13" uuid="1acd9631-0149-4a77-9dcc-387d7fca76b5"/>
+					<textElement>
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<text><![CDATA[DIAGNOSTICO]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="4" y="18" width="20" height="20" uuid="b8b682c0-6bf8-4e0a-b903-9bcb6b336dde">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2c7d59f2-d327-4d72-bd4d-d7dff29b1344"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Nº]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="81" y="18" width="109" height="26" uuid="e116030f-81e3-472b-b6a8-0747bfb57799">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a1c7324e-463c-4881-9797-223b105f3b7e"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Diagnóstico(CIE10)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="225" y="18" width="85" height="26" isPrintWhenDetailOverflows="true" uuid="18d0430d-b45b-4592-82ce-df0587ba0651">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="69e89866-371e-4575-87a6-cfc33b9ce102"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Top">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Determinacion Diagnostica]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="470" y="18" width="39" height="26" uuid="58335bc3-0586-4399-b0bb-11b58149b0cd">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c7e7988d-f333-4953-a656-ada7695ba16a"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Nota]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="304" y="18" width="68" height="26" uuid="dcfce3b2-30a0-46dc-bb8e-b4a4e40ebe4e">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="900e120b-bef8-45c5-a3df-09ae92dd69bf"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Jerarquía Diagnóstica]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="370" y="18" width="59" height="26" uuid="fa185f25-8ce8-4962-9e96-1d1a1f913b18">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1aa06114-c827-43d2-9a89-e51d0ed977af"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Grado de afección]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement x="435" y="2" width="115" height="25" uuid="ccc46e45-d583-4fa6-97ec-e441cbbde338">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="c7e7988d-f333-4953-a656-ada7695ba16a"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{v_detallediagnostico}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="305" y="5" width="60" height="20" uuid="635dd29f-3fd6-4743-afac-116160593056">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="900e120b-bef8-45c5-a3df-09ae92dd69bf"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{v_tipodiagnostico}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="30" y="2" width="195" height="25" isPrintWhenDetailOverflows="true" uuid="a2167bdc-92ce-401a-aa2c-c16ed1f43e99">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3c7a6b8c-8cd7-43b8-8ef5-7da985e6e1db"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{v_compendiocie10}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement isPrintRepeatedValues="false" x="230" y="5" width="70" height="20" isPrintWhenDetailOverflows="true" uuid="9515c592-7d51-4c9c-bec4-e791cc3c85aa">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="7961a0f1-a5a7-45fb-86c0-133e864772e6"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{v_determ_diagnostica}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="0" y="5" width="25" height="20" uuid="c3d97765-ae66-429a-951e-42f70bb66d2c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="2557a8ab-6f3c-47bc-9e8f-b3dc026c31b5"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{n_linea}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="370" y="5" width="60" height="20" uuid="9300e181-1c23-4919-8184-dbd40115a46f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1aa06114-c827-43d2-9a89-e51d0ed977af"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{v_gradoafeccion}]]></textFieldExpression>
+			</textField>
+			<frame>
+				<reportElement positionType="Float" x="0" y="0" width="555" height="30" uuid="0ec1e3f7-0215-4db2-bb0b-a8b5cd584a92"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineColor="#E5BAFF"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+				</box>
+				<rectangle>
+					<reportElement mode="Transparent" x="24" y="0" width="206" height="30" uuid="8f668d11-d13d-4f2e-97c1-4ed420b8f04e"/>
+					<graphicElement>
+						<pen lineColor="#E5BAFF"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement mode="Transparent" x="305" y="0" width="65" height="30" uuid="174305ca-c724-4ff9-ae70-9fde17f90769"/>
+					<graphicElement>
+						<pen lineColor="#E5BAFF"/>
+					</graphicElement>
+				</rectangle>
+				<rectangle>
+					<reportElement mode="Transparent" x="370" y="0" width="60" height="30" uuid="e3437185-9b33-42c9-a044-2afd2540282c"/>
+					<graphicElement>
+						<pen lineColor="#E5BAFF"/>
+					</graphicElement>
+				</rectangle>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

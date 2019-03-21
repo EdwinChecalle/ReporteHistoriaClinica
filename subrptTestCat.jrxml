@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subrptTestCat" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4c4cdb5b-9b0f-42b2-8cab-ece56d63e6ef">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="n_valortos" class="java.math.BigDecimal"/>
+	<field name="n_valorflema" class="java.math.BigDecimal"/>
+	<field name="n_valoropresion_pecho" class="java.math.BigDecimal"/>
+	<field name="n_valorfaltaaire" class="java.math.BigDecimal"/>
+	<field name="n_valorlimitacionactividad" class="java.math.BigDecimal"/>
+	<field name="n_valorseguridad" class="java.math.BigDecimal"/>
+	<field name="n_valorsueno" class="java.math.BigDecimal"/>
+	<field name="n_valorenergia" class="java.math.BigDecimal"/>
+	<field name="n_totaltes" class="java.math.BigDecimal"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="396" splitType="Stretch">
+			<staticText>
+				<reportElement x="20" y="30" width="220" height="30" uuid="fe924258-11db-40c1-936d-c705b0e6b501"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nunca tengo tos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="30" width="220" height="30" uuid="4118cc5e-7992-45ea-bf73-0c1011e548fa"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Siempre estoy tosiendo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="70" width="220" height="30" uuid="12a635ad-d820-45bf-9c3d-f168a9e5352e"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[No tengo flema (mucocidad) en el pecho]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="70" width="220" height="30" uuid="2b875cdd-d815-4b6f-85b8-ac5bb297d032"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tengo el pecho completamente lleno de flema (mucocidad)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="310" width="220" height="30" uuid="dddbcbca-c848-4b57-8d98-5a43a0aa3534"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tengo mucha energía]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="270" width="220" height="30" uuid="0d98b142-2bc9-472c-8dfa-17bcf87aca63"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Duermo sin problemas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="110" width="220" height="30" uuid="db78f4bf-fcb1-4ab3-9e50-28f5d2ffd8aa"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[No siento ninguna opresión en el pecho]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="150" width="220" height="30" uuid="cb4e03b2-7ed6-474e-99d4-841459bb6504"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cuando subo una pendiente o un tramo de escaleras, no me falta el aire]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Transparent" x="20" y="190" width="220" height="30" uuid="576c771e-7365-4fcd-844a-afced7f53d3a"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[No me siento limitado para realizar actividades domésticas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="230" width="220" height="30" uuid="16e4516d-2e7e-4bf8-abe6-a4b10752de01"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Me siento seguro al salir de casa a pesar de la afección pulmonar que padezco]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="150" width="220" height="30" uuid="a665b583-6061-4535-9d06-3ad7448ffe34"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cuando subo una pendiente o un tramo de escaleras, me falta mucho el aire]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="190" width="220" height="30" uuid="f3de15ed-0155-4e8f-b1d3-94e6c65ff647"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Me siento muy limitado para realizar actividades domésticas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="230" width="220" height="30" uuid="65b1c868-6fc7-4257-9af6-3d7c33e6b063"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[No me siento nada seguro al salir de casa debido a la afección pulmonar que padezco]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="270" width="220" height="30" uuid="94d585d1-fb77-4bbf-b016-6707e0ac8786"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tengo problemas para dormir debido a la afección pulmonar que padezco]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="310" width="220" height="30" uuid="bb3f49e8-4060-48de-bc82-eb1d15251de9"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[No tengo ninguna energía]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="310" y="110" width="220" height="30" uuid="208b5256-6b11-46fa-b06c-2be110b12897"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Siento mucha opresión en el pecho]]></text>
+			</staticText>
+			<ellipse>
+				<reportElement mode="Opaque" x="260" y="70" width="30" height="30" backcolor="#EBCCFF" uuid="7497d82c-f346-4565-8aff-61d378bfe771"/>
+			</ellipse>
+			<ellipse>
+				<reportElement mode="Opaque" x="260" y="30" width="30" height="30" backcolor="#EBCCFF" uuid="7ed72f63-866c-4834-b617-447cc14fbcd1"/>
+			</ellipse>
+			<ellipse>
+				<reportElement mode="Opaque" x="260" y="110" width="30" height="30" backcolor="#EBCCFF" uuid="01e31b9b-653a-47ec-a9e6-27e32e9957a2"/>
+			</ellipse>
+			<ellipse>
+				<reportElement mode="Opaque" x="260" y="150" width="30" height="30" backcolor="#EBCCFF" uuid="67dc1452-b53b-45e3-ab81-cb9e1fc7ffff"/>
+			</ellipse>
+			<ellipse>
+				<reportElement x="260" y="190" width="30" height="30" backcolor="#EBCCFF" uuid="04336a10-c1d4-489f-a917-7c56147bab7a"/>
+			</ellipse>
+			<ellipse>
+				<reportElement x="260" y="230" width="30" height="30" backcolor="#EBCCFF" uuid="875ff0b5-221c-4a66-a4a9-f9b250e1eca2"/>
+			</ellipse>
+			<ellipse>
+				<reportElement mode="Opaque" x="260" y="310" width="30" height="30" backcolor="#EBCCFF" uuid="a0860d18-1e92-4cde-8406-3ccb9e9ee3ac"/>
+			</ellipse>
+			<ellipse>
+				<reportElement x="260" y="270" width="30" height="30" backcolor="#EBCCFF" uuid="c36451b1-021b-4d84-aefa-73c8aef52e19"/>
+			</ellipse>
+			<textField>
+				<reportElement x="260" y="30" width="30" height="30" uuid="90e3878a-942d-48e5-8e6d-85261b26745f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="98b92539-c6af-41d7-9f12-acfb81814ee6"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{n_valortos}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="70" width="30" height="30" uuid="3e4b62db-c4bd-456d-9758-f0261593bc95">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0cc1e341-33ea-40f8-8314-8af5cbd16851"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{n_valorflema}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="110" width="30" height="30" uuid="ee78c0c6-ae5f-40db-ab91-f5edb9a5b207">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="14796586-5c0b-4346-8934-bb64ff49509e"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{n_valoropresion_pecho}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="150" width="30" height="30" uuid="a0f07911-ba9c-4723-ba75-68bcbe967f3e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ba35b669-f4b4-4f56-b825-58f59fa9599c"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{n_valorfaltaaire}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="310" width="30" height="30" uuid="c33e850e-ea60-4828-aa15-9129a58fe13b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="35ef8ba9-3610-4b77-9dfb-95b88d2f0df8"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{n_valorenergia}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="270" width="30" height="30" uuid="fb037050-ec9a-48c7-a73a-21645fbc095f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3f5aedf3-8d61-419c-8eca-a9713419151d"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{n_valorsueno}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="230" width="30" height="30" uuid="7badadb4-abc7-4ce1-bf0e-f1330d072353">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="fc874cb0-642a-4723-b618-6a10e3f17e55"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{n_valorseguridad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="190" width="30" height="30" uuid="48b78e6d-b8eb-46f2-bbdf-7fb8e0ab267e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="28d2ede6-95f3-4f34-a3c8-2ae6ad8c4052"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{n_valorlimitacionactividad}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="350" width="220" height="30" uuid="1b485496-0d13-4336-a35f-a30c84b9cce7"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PUNTUACIÓN TOTAL:]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement positionType="FixRelativeToBottom" mode="Opaque" x="260" y="350" width="30" height="30" uuid="9918076b-c099-472e-a795-c2f3e4bf0b26"/>
+			</rectangle>
+			<textField>
+				<reportElement x="260" y="350" width="30" height="30" uuid="614e96c6-e9fb-4210-8e1e-bbd9148d16f6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0bc1e41e-6a07-453e-b494-109fff00007f"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{n_totaltes}]]></textFieldExpression>
+			</textField>
+			<frame>
+				<reportElement x="0" y="0" width="555" height="396" uuid="92f85a91-9953-480d-a653-7a78badcaeb2"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineColor="#E5BAFF"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+				</box>
+				<frame>
+					<reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="0" width="555" height="15" forecolor="#FFFFFF" backcolor="#EBCCFF" uuid="3162a4c7-fcce-45c6-a35e-fc27b7bfc05f"/>
+					<box>
+						<pen lineColor="#EBCCFF"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+					</box>
+				</frame>
+				<staticText>
+					<reportElement positionType="FixRelativeToBottom" x="11" y="2" width="139" height="13" uuid="2444c4b3-4ca1-4850-9fb0-57ff84e822a0"/>
+					<textElement>
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<text><![CDATA[CAT(Copd Assessment Test)]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

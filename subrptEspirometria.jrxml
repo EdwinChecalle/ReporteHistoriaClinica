@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subrptEspirometria" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="6b4da6d4-44a1-4940-9c93-f1756ab2cf42">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="oru01_v_ambientes_contaminados" class="java.lang.String"/>
+	<field name="oru01_v_actividades" class="java.lang.String"/>
+	<field name="oru01_v_cansancio" class="java.lang.String"/>
+	<field name="oru01_v_ausentismo" class="java.lang.String"/>
+	<field name="oru01_v_asma" class="java.lang.String"/>
+	<field name="oru01_v_fuma" class="java.lang.String"/>
+	<field name="oru01_v_alergico" class="java.lang.String"/>
+	<field name="oru01_v_pef" class="java.lang.String"/>
+	<field name="oru01_v_fev1" class="java.lang.String"/>
+	<field name="concentracion_oxigeno" class="java.lang.String"/>
+	<field name="Field_3" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="478" splitType="Stretch">
+			<staticText>
+				<reportElement x="15" y="81" width="415" height="26" uuid="6537d2dd-3803-42d3-99ca-4bda8d4734d0"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Ha vivído o trabajado en un lugar con aire sucio o contaminado, humo, humo de segunda mano o polvo?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="116" width="415" height="13" uuid="b4c914b0-e064-4c22-9585-c7d1af1b3af8"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cambia su respiración con las estaciones, el clima o la calidad de aire?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="145" width="415" height="13" uuid="ae44b14a-5bed-4b9f-8501-cfcc4f7b7e95"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Su respiración dificulta al hacer cosas?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="167" width="415" height="13" uuid="a83f7a07-55c4-4f14-bde6-3ad6a8d36438"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[En comparación con otros de su edad, ¿Se cansa facilmente?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="191" width="415" height="26" uuid="2f5ec040-80f1-4e10-9186-474d44f7fcdb"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[En los últimos 12 meses, ¿cuántas veces se ausenta del trabajo, la escuela u otras actividades por un resfriado?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="231" width="80" height="13" uuid="2db56f15-489d-46ca-b416-837a8524c701"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Asma:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="231" width="60" height="13" uuid="a52b4b77-a399-4728-897c-c21e05eb3163"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fuma:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="350" y="231" width="80" height="13" uuid="22a67505-8aa3-4343-ae85-3e6a6dd21645"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Alergia:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="282" width="65" height="13" uuid="c846bf05-8e85-40ea-a600-3d61883664ba"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FEV:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="312" width="65" height="13" uuid="02883b41-e2ed-4eb2-aafb-2f9220b1a082"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PEF:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="366" width="120" height="13" uuid="db6043fe-aecc-4914-b0b8-48ab9e14aee2"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Concentración Oxigeno:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="426" width="120" height="13" uuid="2f8e8601-5651-4351-8b01-ef1a41592e20"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Frecuencia Inspiración:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="446" width="120" height="13" uuid="821b258e-bd52-447d-83a6-64c558b74b6c"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Frecuencia Expiración:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="190" y="55" width="80" height="13" uuid="da963da6-420a-4073-a6b6-da44aa031df0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Preguntas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="55" width="80" height="13" uuid="a7560089-bdd6-49d0-9855-8e7e025811d8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Respuestas]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="444" y="86" width="100" height="13" uuid="a0e00ac0-def2-4e1e-b169-8b98c51e60e2">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="35b48e19-173b-44be-8d0e-fbad2934d857"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{oru01_v_ambientes_contaminados}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="116" width="100" height="13" uuid="780b9de3-9a45-4616-98b2-42ce699a6a7b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="897f1983-ee8e-47d2-8737-5812723a665d"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{oru01_v_actividades}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="145" width="100" height="13" uuid="a2f4a1bb-2f68-4cd1-b426-9a506e653543">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8b3ae51e-d2da-4678-8d9e-d1beaff8afbe"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{oru01_v_actividades}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="167" width="100" height="13" uuid="0b8a9eee-1191-4528-9d4c-5d9259d81f80">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3db0333e-172a-4036-b37c-f4836d6f8f86"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{oru01_v_cansancio}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="196" width="100" height="13" uuid="ce98ae8e-5461-4bed-9483-673d02668356">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="79b6c3ce-bbf0-4ee3-82c5-d0a4fe47a679"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{oru01_v_ausentismo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="231" width="50" height="13" uuid="5a90bb9b-4535-43a4-976c-fcb6a447d3be">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="ed1fc10f-35a7-4c2f-a248-bf91c5945fbf"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{oru01_v_asma}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="260" y="231" width="50" height="13" uuid="022c102e-8a48-4392-a201-86114a8a75ee">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="eca7e340-3393-4902-a033-9a39ca687f15"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{oru01_v_fuma}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="444" y="231" width="100" height="13" uuid="6ac68c93-9838-4671-a52a-c91a1d538c46">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="3438c0f2-dddd-47d5-90b1-dc6d18cb3190"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{oru01_v_alergico}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="282" width="100" height="13" uuid="4a8ca4c0-5b3f-4d75-94fd-33d98c6c0776">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="31ce117b-c5d5-4608-b42e-ecb45116109c"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{oru01_v_fev1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="84" y="312" width="100" height="13" uuid="fe97ae2f-25b7-408d-a8ff-d149499dfe3e">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f243fa42-0e95-4f5d-9cff-f3d6a3684335"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{oru01_v_pef}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="366" width="100" height="13" uuid="c4924335-aab0-4e89-9176-140d956e0580"/>
+				<textFieldExpression><![CDATA[$F{concentracion_oxigeno}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="150" y="426" width="100" height="13" uuid="133a4e32-dcc7-4acd-aa91-e6a893e1772d"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[90]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="446" width="100" height="13" uuid="991cfc14-3f4e-4ac3-ac1d-36a15868eccd"/>
+				<textElement>
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[85]]></text>
+			</staticText>
+			<frame>
+				<reportElement x="0" y="0" width="555" height="470" uuid="4ce25394-6b1b-46db-aba1-d0c39b862733"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<pen lineColor="#E5BAFF"/>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#E5BAFF"/>
+				</box>
+				<frame>
+					<reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="0" width="555" height="15" forecolor="#FFFFFF" backcolor="#EBCCFF" uuid="34ea6178-5855-4134-9af9-904263b1c80f"/>
+					<box>
+						<pen lineColor="#EBCCFF"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+					</box>
+				</frame>
+				<staticText>
+					<reportElement positionType="FixRelativeToBottom" x="11" y="1" width="139" height="13" uuid="fef9d333-c1c4-4ba8-bd23-d09c3b98b4bf"/>
+					<textElement>
+						<font fontName="Arial" isBold="true"/>
+					</textElement>
+					<text><![CDATA[ESPIROMETRIA]]></text>
+				</staticText>
+				<frame>
+					<reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="270" width="555" height="1" forecolor="#FFFFFF" backcolor="#EBCCFF" uuid="56b3a1c8-cf26-4a30-a346-17f9565f681e"/>
+					<box>
+						<pen lineColor="#EBCCFF"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+					</box>
+				</frame>
+				<staticText>
+					<reportElement positionType="FixRelativeToBottom" mode="Opaque" x="11" y="257" width="139" height="13" backcolor="#EBCCFF" uuid="f59a2c8e-1864-4ee8-b6ce-ee90b606de57"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Arial" size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Espirometría]]></text>
+				</staticText>
+				<staticText>
+					<reportElement positionType="FixRelativeToBottom" mode="Opaque" x="11" y="30" width="139" height="13" backcolor="#EBCCFF" uuid="865786cd-071f-4ba7-90e8-5ea43c00f047"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Arial" size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Información del Examen]]></text>
+				</staticText>
+				<frame>
+					<reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="43" width="555" height="1" forecolor="#FFFFFF" backcolor="#EBCCFF" uuid="290a6ef3-dd6b-4e4d-97b7-2017c679754d"/>
+					<box>
+						<pen lineColor="#EBCCFF"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+					</box>
+				</frame>
+				<staticText>
+					<reportElement positionType="FixRelativeToBottom" mode="Opaque" x="11" y="340" width="139" height="13" backcolor="#EBCCFF" uuid="07670391-8182-47c8-aa5d-04f209af2b2c"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Arial" size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Pulsoximetro]]></text>
+				</staticText>
+				<frame>
+					<reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="353" width="555" height="1" forecolor="#FFFFFF" backcolor="#EBCCFF" uuid="e3372c58-d349-450d-8a3a-6103c85841f7"/>
+					<box>
+						<pen lineColor="#EBCCFF"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+					</box>
+				</frame>
+				<staticText>
+					<reportElement positionType="FixRelativeToBottom" mode="Opaque" x="12" y="394" width="139" height="13" backcolor="#EBCCFF" uuid="d864fcfe-d7be-424b-b327-4dc81e16625d"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="Arial" size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Estetoscopio]]></text>
+				</staticText>
+				<frame>
+					<reportElement stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="407" width="555" height="1" forecolor="#FFFFFF" backcolor="#EBCCFF" uuid="ac6628a8-c4ca-442d-99fa-3395b36c31e4"/>
+					<box>
+						<pen lineColor="#EBCCFF"/>
+						<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+						<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#EBCCFF"/>
+					</box>
+				</frame>
+			</frame>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
